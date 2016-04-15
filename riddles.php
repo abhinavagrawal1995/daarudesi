@@ -23,23 +23,23 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Generic Page</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+							<h1>Thora sawaal-jawab ho jaye?</h1>
+							<span class="image main"><img src="images/08.jpg" alt="" style="height: 500px;"/></span>
 							<hr>
 							<div class="row">
-								<div class="7u">
-								<div class="row">
-								<h3 id="ques">question 1</h3>
-								</div>
-								<div class="row">
-								<h4 id="hint">hint 1</h3>
-								</div>
-								<div class="row" >
-								<span class="image fit"><img id="myImg" src="images/pic02.jpg" alt="" style="height: 300px;"></span>
-								</div>
+								<div class="7u 12u$(medium)">
+									<div class="row">
+										<h3 id="ques">question 1</h3>
+									</div>
+									<div class="row">
+										<h4 id="hint">hint 1</h4>
+									</div>
+									<div class="row">
+										<span class="image fit"><img id="myImg" src="images/pic02.jpg" alt="" style="height: 300px;"></span>
+									</div>
 								</div>
 
-								<div class="4u" style="float:right;padding-top: 100px;">
+								<div class="4u 12u$(medium)" style="float:right;padding-top: 100px;">
 									<div class="field" >
 										<input type="text" name="ans" id="ans" onKeydown="chkenter(event);" placeholder="Answer" />
 									</div>

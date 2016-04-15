@@ -2,10 +2,10 @@
 <header id="header">
 	<div class="inner" id="abi">
 
-		<!-- Logo -->
+		<!-- Logo 
 			<a href="index.php" class="logo">
 				<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Random</span>
-			</a>
+			</a>-->
 
 		<!-- Nav -->
 			<nav>
