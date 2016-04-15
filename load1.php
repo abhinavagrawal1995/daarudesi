@@ -36,6 +36,7 @@
 	</div>
 </header>
 
+
 <!-- Menu -->
 <nav id="menu">
 	<h2>Menu</h2>
@@ -53,6 +54,10 @@ var pas=localStorage.getItem("passed");
 if(pas!="yes")
 h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
 </script>
+<audio src="song.mp3" autoplay>
+<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+<embed src="song.mp3" width="180" height="90" hidden="true" />
+</audio>
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
@@ -63,10 +68,7 @@ h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a
     background-position:center;
     width: 90vw;height: 60vh;"></span>
 						</div>
-						<audio src="song.mp3" autoplay>
-<p>If you are reading this, it is because your browser does not support the audio element.     </p>
-<embed src="song.mp3" width="180" height="90" hidden="true" />
-</audio>
+
 
 					</div>
 
