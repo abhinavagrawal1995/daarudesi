@@ -54,7 +54,7 @@ var pas=localStorage.getItem("passed");
 if(pas!="yes")
 h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
 </script>
-<audio src="song.mp3" autoplay>
+<audio src="song.mp3" autoplay oncanplay="songed()">
 <p>If you are reading this, it is because your browser does not support the audio element.     </p>
 <embed src="song.mp3" width="180" height="90" hidden="true" />
 </audio>
@@ -78,6 +78,11 @@ h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a
 			</div>
 
 		<!-- Scripts -->
+		<script>
+			function songed(){
+				console.log("can play");
+			}
+		</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
