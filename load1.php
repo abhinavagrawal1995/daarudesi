@@ -15,67 +15,52 @@
 	</head>
 	<body>
 		<!-- Wrapper -->
-			<div id="wrapper">
-
-				<!-- Header -->
-					
-
-<header id="header">
-	<div class="inner" id="abi" style="text-align: center;">
-
-<a href="riddles.php" class="logo">
-<span class="title">Aage badhne ke liye, yaha dabaye.</span>
-			</a>
-		<!-- Nav -->
-			<nav>
+		<div id="wrapper">
+				
+			<header id="header">
+				<div class="inner" id="abi" style="text-align: center;">
+						<a href="riddles.php" class="logo">
+						<span class="title">Aage badhne ke liye, yaha dabaye.</span>
+						</a>
+					<!-- Nav -->
+						<nav>
+							<ul>
+								<li><a href="#menu">Menu</a></li>
+							</ul>
+						</nav>
+				</div>
+			</header>
+			<!-- Menu -->
+			<nav id="menu">
+				<h2>Menu</h2>
 				<ul>
-					<li><a href="#menu">Menu</a></li>
+					<li><a href="index.php">Hosame</a></li>
+					<li><a href="generic.php">Ipsum veroeros</a></li>
+					<li><a href="generic.php">Tempus etiam</a></li>
+					<li><a href="generic.php">Consequat dolor</a></li>
+					<li><a href="elements.php">Elements</a></li>
 				</ul>
 			</nav>
 
-	</div>
-</header>
+			<script>
+				var h=document.getElementById('menu');
+				var pas=localStorage.getItem("passed");
+				if(pas!="yes")
+				h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
+			</script>
 
-
-<!-- Menu -->
-<nav id="menu">
-	<h2>Menu</h2>
-	<ul>
-		<li><a href="index.php">Hosame</a></li>
-		<li><a href="generic.php">Ipsum veroeros</a></li>
-		<li><a href="generic.php">Tempus etiam</a></li>
-		<li><a href="generic.php">Consequat dolor</a></li>
-		<li><a href="elements.php">Elements</a></li>
-	</ul>
-</nav>
-<script>
-var h=document.getElementById('menu');
-var pas=localStorage.getItem("passed");
-if(pas!="yes")
-h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
-</script>
-<audio src="song.mp3" autoplay oncanplay="songed()">
-<p>If you are reading this, it is because your browser does not support the audio element.     </p>
-<embed src="song.mp3" width="180" height="90" hidden="true" />
-</audio>
+			<audio src="song.mp3" autoplay oncanplay="songed()">
+				<p>If you are reading this, it is because your browser does not support the audio element.     </p>
+				<embed src="song.mp3" width="180" height="90" hidden="true" />
+			</audio>
 				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<span class="image main" style="
-	background: url('images/party.gif');
-	background-repeat:no-repeat;
-	background-size:contain;
-    background-position:center;
-    width: 90vw;height: 60vh;"></span>
-						</div>
-
-
-					</div>
-
-				<!-- Footer -->
-					
-
+			<div id="main">
+				<div class="inner">
+					<span class="image main" style="background: url('images/party.gif');background-repeat:no-repeat;background-size:contain;background-position:center;width: 90vw;height: 60vh;"></span>
+				</div>
 			</div>
+			<!-- Footer -->
+		</div>
 
 		<!-- Scripts -->
 		<script>
