@@ -41,7 +41,7 @@
 
 								<div class="4u" style="float:right;padding-top: 100px;">
 									<div class="field" >
-										<input type="text" name="ans" id="ans" placeholder="Answer" />
+										<input type="text" name="ans" id="ans" onKeydown="chkenter(event);" placeholder="Answer" />
 									</div>
 									<br>
 									<ul class="actions">
@@ -65,7 +65,13 @@
 				var hint=['hint 1','hint 2','hint 3','hint 4','hint 5'];
 				var ans=['abhinav','mayank','a3','a4','a5'];
 				var imgs = ['images/riddles/pic01.jpg','images/riddles/pic02.jpg','images/riddles/pic03.jpg','images/riddles/pic04.jpg','images/riddles/pic05.jpg'];
-				
+				function chkenter(e)
+				{
+					var key=e.keyCode || e.which;
+					  if (key==13){
+					     check();
+					  }
+				}
 				function solve(){	
 								
 					c++;

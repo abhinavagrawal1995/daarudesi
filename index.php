@@ -1,3 +1,6 @@
+<?php
+header('Location: load.php');
+?>
 <!DOCTYPE HTML>
 <!--
 	daarudesi by Abhinav Agrawal
