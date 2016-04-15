@@ -1,5 +1,5 @@
 <?php
-header('Location: load.php');
+header('Location: load1.php');
 ?>
 <!DOCTYPE HTML>
 <!--
