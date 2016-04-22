@@ -1090,7 +1090,7 @@
 				background-image: linear-gradient(bottom, rgba(16,16,16,0.75), rgba(16,16,16,0.25) 80%, rgba(16,16,16,0));
 				padding: 2em 2em 0.75em 2em ;
 				position: absolute;
-				bottom: 0;
+				bottom: 6em;
 				left: 0;
 				width: 100%;
 				color: rgba(255, 255, 255, 0.5);

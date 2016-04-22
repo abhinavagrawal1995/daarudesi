@@ -24,8 +24,6 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Generic Page</h1>
-							
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 							<hr>
 							<div class="row">
 								<div class="6u" >
@@ -37,13 +35,27 @@
 							</div>
 							<br>
 							<div class="row">
-								<div class="6u" style="text-align: left;">
+								<div class="12u">
+								<audio id='audio' controls src='' style="width:100%;"></audio>
+								</div>
+							</div>
+							<br>
+							<div class="row">
+								
+								<div class="6u 12u$(medium)" style="text-align: center;overflow-y: scroll;overflow-x: hidden;word-wrap: break-word;height:300px;">
+									<span id="lyrics">
+									Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.
+									</span>
+			
+								</div>
+
+								<div class="6u 12u$(medium)" style="text-align: left;padding-top: 35px;">
 									<div class="row">
 									<h2><span id="liner">Some random sentence.</span></h2>
 									</div>
 									<div class="row">
 										<div class="12u$">
-													<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+													<textarea name="demo-message" id="demo-message" placeholder="Apne vichaar yaha prastut karein." rows="6"></textarea>
 										</div>
 									</div>
 									<div class="row" style="padding-top: 5px;">
@@ -54,20 +66,11 @@
 											</div>
 									</div>
 								</div>
-								<div class="6u" style="text-align: center;overflow-y: scroll;overflow-x: hidden;word-wrap: break-word;height:300px;">
-									<span id="lyrics">
-									Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.
-									</span>
-			
-								</div>
+
 							</div>
 
 							<br>
-							<div class="row">
-								<div class="12u">
-								<audio id='audio' controls src='' style="width:100%;"></audio>
-								</div>
-							</div>
+							
 							<hr>
 							
 						</div>
@@ -88,13 +91,9 @@
 				var songs = ['http://www.tonycuffe.com/mp3/tail%20toddle.mp3', 'http://www.tonycuffe.com/mp3/cairnomount.mp3', 'http://www.tonycuffe.com/mp3/pipers%20hut.mp3'];
 				var quote=['text1','text2','text3'];
 				var lyrics=['Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.Lyrics.','mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.mast.','done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.done.'];
-
 				var details = ['Song 1 / Artist 1', 'Song 2 / Artist 2', 'Song 3 / Artist 3'];
-
 				var counter = 0;
-
 				changeSong();
-
 				function prevSong(){
 				    counter = counter - 1;
 				    if (counter ==-1){
