@@ -24,7 +24,7 @@
 						</a>
 						<br>
 						<ul class="actions">
-							<li><a href="#" class="button special" onclick="myfunc()">Gaana bajade</a></li>
+							<li><a href="#" class="button special" onclick="play()">Gaana bajade</a></li>
 						</ul>
 					<!-- Nav -->
 						<nav>
@@ -50,7 +50,7 @@
 				h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
 			</script>
 
-			<audio src="songs/daarudesi.mp3" autoplay>
+			<audio src="songs/daarudesi.mp3" id="audio">
 				<p>If you are reading this, it is because your browser does not support the audio element.     </p>
 				<embed src="song.mp3" width="180" height="90" hidden="true" />
 			</audio>
@@ -65,10 +65,12 @@
 
 		<!-- Scripts -->
 		<script>
-			function myfunc(){
-				console.log("can play");
-			}
+			 function play(){
+		       var audio = document.getElementById("audio");
+		       audio.play();
+                }
 		</script>
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>

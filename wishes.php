@@ -22,32 +22,15 @@
 
 				<!-- Main -->
 					<div id="main">
-						<div class="inner">
+						<div class="inner" style="text-align: center;">
 							<h1>wishes wishes wishes wishes</h1>
 							<hr>
-							<div class="row">
-								<div class ="7u 12u$(medium)">
-									<div class="row">
-										<h3 id="ques">question 1</h3>
-									</div>
-									<div class="row">
-										<h4 id="hint">hint 1</h4>
-									</div>
-									<div class="row">
-										<span class="image fit"><img id="myImg" src="images/pic02.jpg" alt="" style="height: 300px;"></span>
-									</div>
-								</div>
-
-								<div class="4u 12u$(medium)" style="float:right;padding-top: 100px;">
-									<div class="field" >
-										<input type="text" name="ans" id="ans" onKeydown="chkenter(event);" placeholder="Answer" />
-									</div>
-									<br>
-									<ul class="actions">
-										<button onclick='check()' style="float: right;">Submit</button>
-									</ul>
-								</div>
-							</div>
+							<ul class="actions">
+								<li style="text-align: center;"><a href="#" class="button special" onclick="play()">Gaana bajade</a></li>
+							</ul>
+							<a href="riddles.php" class="logo">
+							<span class="title">Aage badhne ke liye, yaha dabaye.</span>
+							</a>
 							<hr>
 						</div>
 					</div>
