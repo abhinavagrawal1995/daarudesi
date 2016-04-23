@@ -5,7 +5,7 @@
 -->
 <html>
 	<head>
-		<title>Random</title>
+		<title>HBD Angel</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -66,7 +66,7 @@
 
 								<div class="6u 12u$(medium)" style="text-align: left;padding-top: 35px;">
 									<div class="row">
-									<h2><span id="liner">Some random sentence.</span></h2>
+									<h2><span id="liner">Some HBD Angel sentence.</span></h2>
 									</div>
 									<form action="music.php" method="POST">
 									<div class="row">

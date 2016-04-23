@@ -4,7 +4,7 @@
 
 		<!-- Logo 
 			<a href="index.php" class="logo">
-				<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Random</span>
+				<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">HBD Angel</span>
 			</a>-->
 
 		<!-- Nav -->
@@ -21,11 +21,9 @@
 <nav id="menu">
 	<h2>Menu</h2>
 	<ul>
-		<li><a href="index.php">Hosame</a></li>
-		<li><a href="generic.php">Ipsum veroeros</a></li>
-		<li><a href="generic.php">Tempus etiam</a></li>
-		<li><a href="generic.php">Consequat dolor</a></li>
-		<li><a href="elements.php">Elements</a></li>
+		<li><a href="index.php">Janamdin Mubarak</a></li>
+		<li><a href="music.php">Gaana bajadey</a></li>
+		<li><a href="gallery">Timeless Images</a></li>
 	</ul>
 </nav>
 <script>
