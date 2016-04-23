@@ -22,6 +22,10 @@
 						<a href="riddles.php" class="logo">
 						<span class="title">Aage badhne ke liye, yaha dabaye.</span>
 						</a>
+						<br>
+						<ul class="actions">
+							<li><a href="#" class="button special" onclick="myfunc()">Gaana bajade</a></li>
+						</ul>
 					<!-- Nav -->
 						<nav>
 							<ul>
@@ -34,11 +38,8 @@
 			<nav id="menu">
 				<h2>Menu</h2>
 				<ul>
-					<li><a href="index.php">Hosame</a></li>
-					<li><a href="generic.php">Ipsum veroeros</a></li>
-					<li><a href="generic.php">Tempus etiam</a></li>
-					<li><a href="generic.php">Consequat dolor</a></li>
-					<li><a href="elements.php">Elements</a></li>
+					<li><a href="index.php">Home</a></li>
+					<li><a href="riddles.php">Riddles</a></li>
 				</ul>
 			</nav>
 
@@ -49,7 +50,7 @@
 				h.innerHTML='Pehle sara <a href="riddles.php" style="color: #FF7979;">riddles</a> unlock karo.';
 			</script>
 
-			<audio src="song.mp3" autoplay oncanplay="songed()">
+			<audio src="songs/daarudesi.mp3" autoplay>
 				<p>If you are reading this, it is because your browser does not support the audio element.     </p>
 				<embed src="song.mp3" width="180" height="90" hidden="true" />
 			</audio>
@@ -64,7 +65,7 @@
 
 		<!-- Scripts -->
 		<script>
-			function songed(){
+			function myfunc(){
 				console.log("can play");
 			}
 		</script>
