@@ -2,7 +2,7 @@
 						<div class="inner" style=" margin-top: 5%;;padding-top: 0;">
 							<!--  -->
 							<ul class="copyright" style="margin-top:0;padding: 0;">
-							<li>Developer: <a href="http://abhinavagrawal.in">Abhinav Agrawal</a></li>
+							<li>Developer: <a href="http://abhinavagrawal.in">gROOT</a></li>
 							</ul>
 						</div>
 					</footer>
